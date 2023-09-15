@@ -2,6 +2,10 @@
 title: "Sivakornchong.github.io"
 ---
 
-This is a Quarto website.
+Hi everyone! My name is Sivakorn Chongfeungprinya. That is a long name, so please just call me Oak. I came from Singapore/ Thailand! 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I was born in Thailand but I have lived in Singapore for around half of my life.
+
+I am interested to learn more about the technicality of data science to build a stronger foundation towards success in this field.
+
+And yes~ Anyone interested to hike around Vancouver, let me know.
