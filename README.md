@@ -1,5 +1,3 @@
-# sivakornchong.github.io
-
 # Sivakorn (Oak) Chongfeungprinya
 
 - **Location:** Vancouver, BC V5Y2A5
@@ -54,9 +52,9 @@
 
 - [GitHub Repo](https://github.com/sivakornchong/hdb_project) | [HuggingFace front-end deployment](https://huggingface.co/spaces/sivakornchong/HDB_resale_predict)
 - Personal project inspired to provide a reliable tool for predicting housing prices in Singapore, allowing buyers to negotiate better in today’s market. The ML model is hosted on HuggingFace.
+- Model is hosted on GCP VM to enable automated monthly data extraction and model iteration. 
 
 ## Technical Skills
 
-- **Language:** Python | SQL | R
-- **Visualization:** JMP | Tableau | PowerBI
+- **Tools:** Python | SQL | R | bash | git | JMP | Tableau | PowerBI
 - **Chemical Engineering:** PIMS | HYSYS | ROMeo
