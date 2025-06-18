@@ -31,6 +31,16 @@
     color: white;
 }
 
+.vertical-timeline-element--work .vertical-timeline-element-content {
+  background-color: white !important;
+  color: rgb(39, 40, 34) !important;
+}
+
+.vertical-timeline-element--education .vertical-timeline-element-content {
+  background-color: #aecdf0 !important; // light blue
+  color: rgb(39, 40, 34) !important;
+}
+
 @media screen and (max-width: 1170px) {
     .vertical-timeline-element .vertical-timeline-element-date {
         color: rgb(39, 40, 34);

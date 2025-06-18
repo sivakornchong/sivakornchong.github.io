@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faSchool } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
@@ -14,7 +14,6 @@ function Timeline() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="Jul 2024 - present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
@@ -34,6 +33,17 @@ function Timeline() {
                 <li>Translated needs across leadership, R&amp;D, and engineering into data solutions.</li>
               </ul>
             </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Jul 2024 - present"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faSchool} />}
+          >
+            <h3 className="vertical-timeline-element-title">University of British Columbia</h3>
+            <h3 className="vertical-timeline-element-title">Master in Data Science</h3>
+            <h4 className="vertical-timeline-element-subtitle">Vancouver, Canada</h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -103,6 +113,17 @@ function Timeline() {
                 <li>Recognized by headquarters for driving a high-impact profitability initiative.</li>
               </ul>
             </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="2012 - 2016"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faSchool} />}
+          >
+            <h3 className="vertical-timeline-element-title">National University of Singapore</h3>
+            <h3 className="vertical-timeline-element-title">Bachelor of Chemical Engineering</h3>
+            <h4 className="vertical-timeline-element-subtitle">Singapore</h4>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
