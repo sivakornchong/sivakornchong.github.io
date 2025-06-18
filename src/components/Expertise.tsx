@@ -1,44 +1,54 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faPython, faReact, faDocker } from '@fortawesome/free-brands-svg-icons';
+import { faUsers, faBrain } from '@fortawesome/free-solid-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
     "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
+    "Machine Learning",
+    "Deep Learning",
+    "Computer Vision",
+    "YOLO",
+    "RESNET",
+    "RAG",
+    "Ollama",
+    "HuggingFace",
+    "PyTorch",
+    "CUDA",
+    "LLM", 
+    "Langchain",
+    "Prompt Engineering"
 ];
 
 const labelsSecond = [
     "Git",
-    "GitHub Actions",
     "Docker",
-    "AWS",
-    "Azure",
+    "Streamlit",
+    "Dash",
+    "React",
+    "FastAPI",
+    "Websockets",
     "Linux",
-    "Snowflake",
     "Pandas",
-    "Selenium",
+    "Redis",
+    "PostgreSQL",
+    "MongoDB",
+    "AWS"
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "AWS",
+    "System Design",
+    "Git",
+    "Jira",
+    "Technical Hiring",
+    "Technical Management",
+    "Networking",
+    "Collaboration",
+    "Stakeholder Management"
 ];
 
 function Expertise() {
@@ -48,9 +58,9 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <FontAwesomeIcon icon={faBrain} size="3x"/>
+                    <h3>ML/AI Development</h3>
+                    <p>I have experience in developing end-to-end machine learning projects, from data acquisition, data preprocessing, architectural selection, model training, and MLOps for commercial uses at TikTok and a tech start-up. I specilize in Computer Vision and LLM (RAG).</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -60,9 +70,9 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <FontAwesomeIcon icon={faPython} size="3x"/>
+                    <h3>Rapid Prototyping</h3>
+                    <p> Beyond model development, capable of deliverying MVP software prototype for model deployment, with appropriate frontend, backend, database, and sensor integrations. Proficient in getting the software from 0 to MVP. Comfortable with local, cloud or hybrid solutions</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -72,11 +82,11 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <FontAwesomeIcon icon={faUsers} size="3x"/>
+                    <h3>Leadership and Domain Knowledge</h3>
+                    <p>Led technical teams in two distinct roles—Data Team Lead and Chemical Engineering Team Lead—demonstrating versatility in leadership and team development. Actively involved in hiring and building high-performing teams. Proficient in modern collaboration tools</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Skill stack:</span>
                         {labelsThird.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
