@@ -55,6 +55,10 @@ function Expertise() {
     return (
     <div className="container" id="expertise">
         <div className="skills-container">
+            <h1>Summary</h1>
+                <p>I'm a machine learning engineer with experience working in TikTok (Singapore) and leading a technical data&ML team at Sixone Labs (Canada). I have 8 years of experience in data and machine learning fields, with 2 years of leadership experience</p>
+                <p>Previously, I was a chemical engineer in oil and gas industry. With domain knowledge from non-tech sector, I am passionate about finding ways to extract more values from data with more reliable data engineering and suitable application of AI and machine learning.</p>
+
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
