@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3a5e943.css",
-    "main.js": "/static/js/main.16ab9f82.js",
+    "main.css": "/static/css/main.b4ab11e4.css",
+    "main.js": "/static/js/main.1ff0f325.js",
     "static/js/453.b05d8aa5.chunk.js": "/static/js/453.b05d8aa5.chunk.js",
-    "static/media/mock10.png": "/static/media/mock10.2d05b02ba569a430a255.png",
-    "static/media/mock09.png": "/static/media/mock09.e18677ccfc932e52d754.png",
-    "static/media/mock08.png": "/static/media/mock08.13f46873fdbd382f4b76.png",
     "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/mock07.png": "/static/media/mock07.3f1110f482232b33c6a2.png",
     "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/Face_detection.png": "/static/media/Face_detection.22f0472c7156dd58cdbb.png",
+    "static/media/HDB_resale_frontend.png": "/static/media/HDB_resale_frontend.69a8ffd0e5c4b35b7add.png",
     "static/media/linkedinprofile.jpeg": "/static/media/linkedinprofile.2f70d8db9104cb238704.jpeg",
     "index.html": "/index.html",
-    "main.e3a5e943.css.map": "/static/css/main.e3a5e943.css.map",
-    "main.16ab9f82.js.map": "/static/js/main.16ab9f82.js.map",
+    "main.b4ab11e4.css.map": "/static/css/main.b4ab11e4.css.map",
+    "main.1ff0f325.js.map": "/static/js/main.1ff0f325.js.map",
     "453.b05d8aa5.chunk.js.map": "/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3a5e943.css",
-    "static/js/main.16ab9f82.js"
+    "static/css/main.b4ab11e4.css",
+    "static/js/main.1ff0f325.js"
   ]
 }
