@@ -22,7 +22,7 @@ function Project() {
             <div className="project">
                 <a href="https://github.com/sivakornchong/fd_widerface_yolov8" target="_blank" rel="noreferrer"><img src={project02} className="zoom" alt="thumbnail" width="100%"/></a>
                 <h2>Face Detection and Age Classification</h2>
-                <a href="https://github.com/sivakornchong/fd_widerface_yolov8" target="_blank" rel="noreferrer"><h2>Github</h2></a>
+                <a href="https://github.com/sivakornchong/fd_widerface_yolov8" target="_blank" rel="noreferrer"><h3>Github</h3></a>
                 <p>Designed, developed, and launched a local deployment for face detection and age classification based on YOLOV8 + RESNET architecture.</p>
             </div>
             {/* <div className="project">
