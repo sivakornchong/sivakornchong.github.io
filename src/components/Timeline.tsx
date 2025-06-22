@@ -20,7 +20,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Sixone Labs</h3>
-            <h3 className="vertical-timeline-element-title">Machine Learning Engineer/ Data Team Lead</h3>
+            <h3 className="vertical-timeline-element-title" style={{ fontStyle: "italic" }}>Machine Learning Engineer/ Data Team Lead</h3>
             <h4 className="vertical-timeline-element-subtitle">Vancouver, Canada</h4>
             <p>
               <em>Sixone Labs is an early-stage startup leveraging machine learning to revolutionize real-time fabric sorting and recycling.</em>
@@ -42,7 +42,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faSchool} />}
           >
             <h3 className="vertical-timeline-element-title">University of British Columbia</h3>
-            <h3 className="vertical-timeline-element-title">Master in Data Science</h3>
+            <h3 className="vertical-timeline-element-title" style={{ fontStyle: "italic" }}>Master in Data Science</h3>
             <h4 className="vertical-timeline-element-subtitle">Vancouver, Canada</h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -52,7 +52,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">TikTok</h3>
-            <h3 className="vertical-timeline-element-title">ML/AI Specialist</h3>
+            <h3 className="vertical-timeline-element-title" style={{ fontStyle: "italic" }}>ML/AI Specialist</h3>
             <h4 className="vertical-timeline-element-subtitle">Singapore</h4>
             <p>
               <ul>
@@ -72,7 +72,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">ExxonMobil Chemicals</h3>
-            <h3 className="vertical-timeline-element-title">Optimization and Modeling Engineer</h3>
+            <h3 className="vertical-timeline-element-title" style={{ fontStyle: "italic" }}>Optimization and Modeling Engineer</h3>
             <h4 className="vertical-timeline-element-subtitle">Singapore</h4>
             <p>
               <ul>
@@ -89,7 +89,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">ExxonMobil Chemicals</h3>
-            <h3 className="vertical-timeline-element-title">Technical Team Lead</h3>
+            <h3 className="vertical-timeline-element-title" style={{ fontStyle: "italic" }}>Technical Team Lead</h3>
             <h4 className="vertical-timeline-element-subtitle">Singapore</h4>
             <p>
               <ul>
@@ -105,7 +105,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">ExxonMobil Chemicals</h3>
-            <h3 className="vertical-timeline-element-title">Chemical Engineer</h3>
+            <h3 className="vertical-timeline-element-title" style={{ fontStyle: "italic" }}>Chemical Engineer</h3>
             <h4 className="vertical-timeline-element-subtitle">Singapore</h4>
             <p>
               <ul>
@@ -122,7 +122,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faSchool} />}
           >
             <h3 className="vertical-timeline-element-title">National University of Singapore</h3>
-            <h3 className="vertical-timeline-element-title">Bachelor of Chemical Engineering</h3>
+            <h3 className="vertical-timeline-element-title" style={{ fontStyle: "italic" }}>Bachelor of Chemical Engineering</h3>
             <h4 className="vertical-timeline-element-subtitle">Singapore</h4>
           </VerticalTimelineElement>
         </VerticalTimeline>
